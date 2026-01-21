@@ -14,7 +14,6 @@
   <img src="https://img.shields.io/github/languages/count/lloredia/SentinelForge?style=plastic" />
   <img src="https://img.shields.io/badge/license-MIT-blue?style=plastic" />
 </p>
-
 <!-- Tech Stack -->
 <p align="center">
   <img src="https://img.shields.io/badge/Rust-black?logo=rust&logoColor=white&style=plastic" />
@@ -24,6 +23,16 @@
   <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=plastic" />
   <img src="https://img.shields.io/badge/JSON-000000?logo=json&logoColor=white&style=plastic" />
   <img src="https://img.shields.io/badge/SQL-003B57?logo=databricks&logoColor=white&style=plastic" />
+</p>
+
+<!-- Language Breakdown -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Rust-64.8-black?style=plastic&logo=rust&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-28.5-F7DF1E?style=plastic&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/PL%2FpgSQL-3.7-336791?style=plastic&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/HTML-1.4-E34F26?style=plastic&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/Dockerfile-1.3-2496ED?style=plastic&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS-0.3-1572B6?style=plastic&logo=css3&logoColor=white" />
 </p>
 
 
