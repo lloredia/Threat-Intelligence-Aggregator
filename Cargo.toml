@@ -1,0 +1,65 @@
+[package]
+name = "sentinelforge"
+version = "0.1.0"
+edition = "2024"
+authors = ["lloredia"]
+description = "SentinelForge - Collect, enrich, and correlate IOCs"
+license = "MIT"
+repository = "https://github.com/lloredia/sentinelforge"
+
+[dependencies]
+# Async runtime
+tokio = { version = "1.35", features = ["full"] }
+async-trait = "0.1"
+futures = "0.3"
+base64 = "0.22"
+
+# Web framework
+axum = { version = "0.7", features = ["macros"] }
+tower = "0.4"
+tower-http = { version = "0.5", features = ["cors", "trace"] }
+
+# HTTP client
+reqwest = { version = "0.11", default-features = false, features = ["json", "rustls-tls"] }
+
+# Database
+sqlx = { version = "0.7", features = ["runtime-tokio", "postgres", "chrono", "uuid"] }
+redis = { version = "0.24", features = ["tokio-comp"] }
+
+# Serialization
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# Observability
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter", "json"] }
+metrics = "0.22"
+metrics-exporter-prometheus = "0.13"
+
+# Utils
+chrono = { version = "0.4", features = ["serde"] }
+uuid = { version = "1.6", features = ["v4", "serde"] }
+thiserror = "1.0"
+anyhow = "1.0"
+clap = { version = "4.4", features = ["derive", "env"] }
+dotenvy = "0.15"
+url = "2.5"
+ipnetwork = "0.20"
+maxminddb = "0.24"
+trust-dns-resolver = "0.23"
+whois-rust = "1.5"
+sha2 = "0.10"
+hex = "0.4"
+regex = "1.10"
+validator = { version = "0.16", features = ["derive"] }
+
+# Rate limiting
+governor = "0.6"
+
+# Cron scheduling
+tokio-cron-scheduler = "0.9"
+
+[dev-dependencies]
+mockall = "0.12"
+wiremock = "0.5"
+tokio-test = "0.4"

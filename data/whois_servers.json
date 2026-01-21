@@ -1,0 +1,5 @@
+@'
+{
+  "servers": {}
+}
+'@ | Out-File -FilePath "data\whois_servers.json" -Encoding utf8

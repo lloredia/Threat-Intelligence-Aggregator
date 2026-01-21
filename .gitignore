@@ -1,0 +1,29 @@
+# Build artifacts
+/target/
+debug/
+release/
+
+# Database files
+*.mmdb
+data/GeoLite2-*/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Dependencies (React)
+sentinelforge-ui/node_modules/
+sentinelforge-ui/build/
